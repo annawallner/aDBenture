@@ -1,21 +1,67 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<html>
+<head>
+  <title>Editor</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+</head>
+
+<body>
+
+<header>
+  <!-- TO DO: Login Link -->
+  <div class="imgcontainer">
+    <img src="assets/policeman.jpg" alt="Avatar" class="policeImg">
+
+  </div>
+  <br>
+  <h1>Willkommen bei a<span style="color: #0D6EFD;">DB</span>enture</h1>
+
+  <!-- TO DO: Header for registered Users -->
+  <img src="assets/default-user.jpg" alt="Avatar" class="profileImgSmall"/>
+</header>
+
+<form>
+  <div class="navbar">
+    <div class="dropdown" style="padding: 1%; color: white;">Abenteuer Soko DB:</div>
+    <div>
+      <!-- TO DO: Navigation -->
+    </div>
+  </div>
+
+  <img class="headerImg" src="assets/policeHeader.jpg" style="width: 100%;">
+  <br>
+  <br>
+  <div class="container">
+    <div class="box1" style="height: 150px; margin:0;">
+      <div id="aufgabe_1" class="aufgabe" style="float:left;">
+        <p class="question"><span style="color:#0D6EFD; font-size:20px;">Projektion und Selection</span>
+          <br>
+        <p style="text-align: justify;"> „Bella“, die geliebte Dalmatinerhündin der Familie Reich wurde entführt.
+          Chefinspektorin Lara
+          Fischer und Chefinspektor Amar Kovač haben die Vermutung, dass es sich bei den Tätern um
+          eine Bande handeln könnte.
+          Um die Verdächtigen einzugrenzen, möchten sie eine duplikatfreie Übersicht über alle Banden
+          erstellen.
+          <br>Wie könnte die SQL Abfrage lauten?</p>
+          <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</form>
+
+
 <div style="text-align:center">
   <form>
-    <textarea id="code" name="code" #myEditor>
-      -- SQL Mode for CodeMirror
-      SELECT SQL_NO_CACHE DISTINCT
-        @var1 AS `val1`, @'val2', @global.'sql_mode',
-        1.1 AS `float_val`, .14 AS `another_float`, 0.09e3 AS `int_with_esp`,
-        0xFA5 AS `hex`, x'fa5' AS `hex2`, 0b101 AS `bin`, b'101' AS `bin2`,
-        DATE '1994-01-01' AS `sql_date`, { T "1994-01-01" } AS `odbc_date`,
-        'my string', _utf8'your string', N'her string',
-            TRUE, FALSE, UNKNOWN
-      FROM DUAL
-      -- space needed after '--'
-      # 1 line comment
-      /* multiline
-      comment! */
-      LIMIT 1 OFFSET 0;
+    <textarea id="code" name="code" #myEditor placeholder="Deine Lösung...">
     </textarea>
   </form>
 </div>
+</body>
+</html>
