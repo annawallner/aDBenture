@@ -5,13 +5,13 @@ import { WindowRef } from './WindowRef';
 import { AppComponent } from './app.component';
 import { AppRoutingModule, routes } from './app-routing.module';
 
+import { RouterModule } from '@angular/router';
 import { EditorComponent } from './editor/editor.component';
-import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EditorComponent
+    EditorComponent,
   ],
   imports: [
     BrowserModule,
